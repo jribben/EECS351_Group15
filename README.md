@@ -28,17 +28,17 @@ We utilized the Classifier Learner App(CLA) within the Matlab Toolbox. Our decis
 ## Running the Code (DEMO)
 The project demo is split into 3 parts...
 
-1. Plot Creation for Analysis
+1. Plot Creation for Filter Analysis
 2. Data Creation (Augmentation, Filtering, Audio Feature Extraction, Formatting)
 3. Classifier Training and Selection
 4. Classifier Testing
 
-**Plot Creation for Analysis**
-1. Open demo3.m and run(?? minutes to run)
-2. ?? number of plots will display. a brief description is listed below
-3. Figure 1: 
-4. Figure 2:
-5. ...
+**Plot Creation for Filter Analysis**
+1. Open demo3.m and run(1 minute to run)
+2. Three plots will display. a brief description is listed below
+3. Figure 1: Spectrograms for unfiltered, 5kHz High Pass, 2Khz High Pass
+4. Figure 2: Spectrograms for targeted moving average
+5. Figure 3: Visual of Weiner filter application
 
 **Data Creation**
 1. Open demo1.m and run (2-3 minutes to run)
@@ -50,10 +50,11 @@ The project demo is split into 3 parts...
 **Classifier Training and Selection**
 1. Use of the Matlab Classification Learner App is skipped in the demo. Trained models already exist in the folder
 2. Trained models are listed as Weiner_SVM.mat and Weiner_Tree.mat
+3. Models for other filters exist, but are skipped for the demo
 
 **Classifier Testing**
 1. Open demo2.m and run (under 5 seconds)
-2. The trained models are called with input of Weiner_Test.mat
+2. The trained models are called with input test data Weiner_Test.mat
 3. Accuracies of both models are reported in the temrinal.
 
 
