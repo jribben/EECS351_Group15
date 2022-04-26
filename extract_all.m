@@ -95,7 +95,8 @@ peak_len = size(peaks,1);
 % each row is a sample of a specific species
 % the columns are the spectral centroid, MFC coefficients, and single-sided Amplitude peak totals
 for i=1:num_species
-    aname = string(filenames(i,1));
+    aname = string(filenames(i,1)); %10 species classification
+    %aname = string(filenames(i,3)); %whale-dolphin classification
     for j=1:total_sample
         offset = (i-1)*total_sample;
         name_mat(j+offset,1) = aname;
