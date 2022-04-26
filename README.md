@@ -80,7 +80,7 @@ The project is split into 3 parts...
 
 **Data**
 
-All of the data for this project is sourced from Watkins Marine Mammal Sound Database, Woods Hole Oceanographic Institution and the New Bedford Whaling Museum. We appreciate and thank them for keeping the data set public for personal and academic purposes. The webiste can be found [here](https://cis.whoi.edu/science/B/whalesounds/index.cfm) The data is included in this repo.
+All of the data for this project is sourced from Watkins Marine Mammal Sound Database, Woods Hole Oceanographic Institution and the New Bedford Whaling Museum. We appreciate and thank them for keeping the data set public for personal and academic purposes. The webiste can be found [here](https://cis.whoi.edu/science/B/whalesounds/index.cfm). The data is included in this repo.
 
 **Weiner Filter**
 
