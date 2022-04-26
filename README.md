@@ -26,11 +26,19 @@ We utilized the Classifier Learner App(CLA) within the Matlab Toolbox. Our decis
 
 
 ## Running the Code (DEMO)
-The project is split into 3 parts...
+The project demo is split into 3 parts...
 
-1. Data Creation (Augmentation, Filtering, Audio Feature Extraction, Formatting)
-2. Classifier Training and Selection
-3. Classifier Testing
+1. Plot Creation for Analysis
+2. Data Creation (Augmentation, Filtering, Audio Feature Extraction, Formatting)
+3. Classifier Training and Selection
+4. Classifier Testing
+
+**Plot Creation for Analysis**
+1. Open demo3.m and run(?? minutes to run)
+2. ?? number of plots will display. a brief description is listed below
+3. Figure 1: 
+4. Figure 2:
+5. ...
 
 **Data Creation**
 1. Open demo1.m and run (2-3 minutes to run)
