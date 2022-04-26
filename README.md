@@ -85,4 +85,9 @@ All of the data for this project is sourced from Watkins Marine Mammal Sound Dat
 **Weiner Filter**
 
 The Weiner filter used in this project (noiseReduction_YM.m/.p) was sourced from Yi-Wen Chen. The code can be found [here](https://medium.com/audio-processing-by-matlab/noise-reduction-by-wiener-filter-by-matlab-44438af83f96). The code is included in this repo.
+
+## Additional Note 
+**Whale-Dolphin Classification**
+
+In addition to species classification, our project is also capable of classifiy in more general terms of whale and dolphin. Exported training models exists in the Whale_Dolphin_classification folder. Those models can be used by moving them to the parent directory and uncommenting code in the test.m file. To extract data that uses this format, change line 98 in extract_all.m
  
